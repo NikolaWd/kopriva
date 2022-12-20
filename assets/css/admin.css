@@ -1,0 +1,56 @@
+.header {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    padding: 0.7rem;
+}
+
+#right {
+    float: right;
+    margin-top: 3px;
+}
+
+#sidebar {
+    margin: 15px;    
+}
+
+#staticBackdrop {
+    width: 300px;
+}
+
+#categoryWidth {
+    max-width: 600px;
+    margin-left: 3rem;
+}
+
+#categoryPos {
+    margin-left: 30%;
+}
+
+#dodajK {
+    margin: 2px 10% 1.5rem 15%;
+}
+
+.kategorije {
+    margin: 0 20px 0 20px;
+}
+
+#odgCategoryName {
+    color: rgb(173, 29, 29);
+    padding: 5px;
+    margin-bottom: 2px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.dobar {
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.los {
+    color: rgb(173, 29, 29);
+    font-size: larger;
+    font-weight: bold;
+}

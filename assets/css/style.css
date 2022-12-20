@@ -1,0 +1,85 @@
+#nav {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+#sidemenu {
+    height: 88.5vh;
+}
+
+#main-content {
+    margin-top: 0.5rem;
+    margin-bottom: 4rem;
+}
+
+.kartica {
+    width: 300px;
+}
+
+#chartContainer {
+    height: 370px;
+    width: 80%;
+    margin: auto;
+}
+
+#dataStatsUser {
+    font-size: larger;
+    background-color: rgb(32, 99, 32);
+    width: fit-content;
+    color: white;
+    padding: 1.5rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+#userDataRecords {
+    margin-bottom: 2rem;
+    width: fit-content;
+}
+
+.glavni {
+    margin: auto;
+    width: fit-content;
+}
+
+.usersAdminView {
+    margin: 4rem;
+}
+
+.infoORder {
+    max-width: 500px;
+    margin: 2rem;
+    border: 1px solid black;
+}
+
+.naslov {
+    margin-top: -2rem;
+}
+
+span.page-link {
+    cursor: pointer;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+#product_table {
+    margin: 2rem;
+}
+
+#err {
+    color: white;
+    font-size: larger;
+}
+
+.image_products_style {
+    width: 120px;
+    height: 90px;
+}
+
+#p_image {
+    width: 120px;
+    height: 90px;
+}

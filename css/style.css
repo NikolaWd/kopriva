@@ -1,0 +1,640 @@
+body {
+  
+  background-image: url(../slicice/Ld9FbB.jpg);
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Courier, monospace;
+}
+#sve {
+    padding: 8px;
+}
+
+ .nav-item {
+    color: white;
+ }
+
+.collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+
+ }
+.navbar-brand {
+    padding: 0.5%;
+    margin: 0%;
+    width: 100px;
+
+}
+/*----------------------------------------------------- video sekcija -------------------------------------------*/
+
+#video {
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  
+}
+
+#video h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  color: rgb(249, 255, 248);
+  position: absolute;
+  text-shadow: 3px 2px 2px grey;
+  top: 50%;
+  left: 6%;
+}
+#buttonvid {
+  margin-top: -20%;
+  margin-bottom: 16%;
+  margin-left: 6%; 
+}
+#buttonvid a input {
+  background-color: #FFF;
+  color: #666666;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+#buttonvid a input:hover {
+  background-color: rgb(72, 185, 87);
+  color: #ffffff;
+}
+
+.back-video {
+  min-height: 100%;
+  width: 100%;
+}
+
+
+/*----------------------------------------------------- video sekcija -------------------------------------------*/
+.collapse {
+    justify-content: end;
+}
+
+.ikonice {
+    display: flex;
+    padding-left: 5rem;
+}
+i {
+    padding: 0.3rem;
+}
+.navh {
+    transition: 300ms;
+}
+.navh:hover {
+    padding-top: 0rem;
+    padding-bottom: 0.2rem;
+}
+
+.nav-link {
+    transition: 300ms;
+    padding: 4px;
+}
+.navt {
+  transition: 500ms;
+}
+.navt:hover {
+  border-bottom: 1px solid rgb(56, 143, 56);
+}
+.ikonice .animcaija .nav-link a:hover {
+    margin-top: -2px;
+    margin-bottom: 2px;
+}
+.dropdown-menu {
+    background: #282d32;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: rgb(62, 184, 72);
+}
+.dropdown-menu li a {
+    color: white;
+}
+#necuBlur {
+  text-align: center;
+  color: #fff;
+  padding: 3rem;
+}
+#onama {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+#brk {
+  padding: 6rem;
+  margin: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*---------------------------------------------Arrow to top ------------------------------------------*/
+.to-top {
+  background-color: rgb(139, 139, 139);
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s;
+  color: rgb(92, 156, 92);
+}
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
+/*---------------------------------------------Arrow to top ------------------------------------------*/
+
+/*---------------------------------------------------------------------- header sekcija */
+
+.hcolor{
+  background-color: rgb(51, 51, 51);
+}
+
+
+/*---------------------------------------------------------------------- header sekcija */
+
+
+
+
+
+
+#brk h3 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+#onama {
+  width: 100%;
+  height: 50rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(134, 234, 149);
+}
+#onama h2 {
+  text-align: center;
+  padding: 4rem 0rem;
+}
+
+#tekstukartici p {
+  text-align: justify;
+  padding-left: 2rem;
+}
+
+.fbimg {
+  width: 40px;
+  height: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+input {
+  width: 100%;
+  margin: 5px 0;
+  height: 35px;
+  font-size: 17px;
+  text-align: center;
+  outline: none;
+  border-radius: 15px;
+  border: none;
+  background: rgb(235, 228, 228);
+}
+
+textarea {
+  width: 100%;
+  margin: 5px 0;
+  font-size: 17px;
+  text-align: center;
+  outline: none;
+  border-radius: 15px;
+  border: none;
+  background: rgb(235, 228, 228);
+}
+input[type=submit]{
+  margin: 10px auto;
+  width: 120px;
+  background:#282d32;
+  color: white;
+  cursor: pointer;
+  transition: 300ms;
+}
+input[type=submit]:hover{
+background: rgb(99, 255, 71);
+}
+@media screen and (max-width:600px) {
+  #contactus{
+      width: 90%;
+  }
+}
+
+  /*https://epicbootstrap.com/snippets/footer-dark*/
+ 
+  .footer-dark {
+    padding: 2% 0%;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+    color: rgb(56, 146, 56);
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+ 
+/* ---------------------------------------- Kontaktiraj nas sekcija ----------------------------*/
+#contactbg{
+  background-image: url(../slicice/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#contactbg h2 {
+  font-weight: bold;
+  margin-left: 9rem;
+  color: #fff;
+  text-shadow: 5px 5px 10px #000000;
+}
+#conu {
+  height: 100vh;
+}
+.labhol {
+  width: 400px;
+  margin-left: 4rem;
+  border-radius: 50% 20% / 10% 40%;
+  background: rgba(243, 243, 243, 0.4);
+  margin-bottom: 3rem;
+  transition: 300ms;
+  box-shadow: 5px 5px 10px #000000;
+  margin-right: 4rem;
+  text-align: center;
+
+}
+.labhol:hover {
+  box-shadow: 0 0 15px #000000;
+
+}
+.form-group {
+  margin-top: 1.2rem;
+  font-weight: bold;
+}
+.btn {
+  width: 6rem;
+  margin: 1rem;
+  padding: 0%;
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+}
+
+#emibr {
+  text-align: left;
+}
+#podatacs {
+  width: 43.9rem;
+  background: rgba(243, 243, 243, 0.4);
+  box-shadow: 5px 5px 10px #000000;
+}
+#podatacs li {
+  display: inline-block;
+  font-weight: bold;
+
+}
+/*----------------------------spi---------------------------------------*/
+.spi {
+  padding-left: 70px;
+}
+.count {
+  font-size: 3rem;
+}
+/*----------------------------spi---------------------------------------*/
+
+/*--------------------------------Partners -----------------------------------*/
+
+#partneri {
+  padding-bottom: 2rem;
+}
+#partneri h2 {
+  text-align: center;
+  padding-bottom: 60px;
+  font-size: 38px;
+}
+#partneri p {
+  padding: 0;
+  margin: 0;
+}
+.slick-slide {
+  margin: 0 20px;
+}
+.slick-slide img {
+  width: 100%;
+}
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.copy {
+  padding-top: 250px;
+}
+/*--------------------------------Partners -----------------------------------*/
+/*--------------------------------O nama -----------------------------------*/
+
+
+.benefitiholder {
+  background-image: url(../slicice/bgbg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+}
+.benefitiholder b {
+  border-radius: 15px;
+
+}
+#prviholder {
+  padding-top: 6rem;
+
+}
+.pbenefiti {
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  color: #fff;
+  text-shadow: 5px 5px 5px black;
+
+}
+#benefit {
+  background-color: rgba(255, 255, 255, .8);
+  padding: 0%;
+  border-radius: 15px;
+}
+
+#drzacparagrafa div img {
+  width: 500px;
+}
+.paragraphdesno {
+  text-align: right;
+}
+#drzacparagrafa div P {
+  padding: 2rem;
+  text-align: justify;
+}
+#drzacparagrafa div img {
+  padding: 1rem;
+}
+
+
+
+@media (max-width:1010px){
+  #drzacparagrafa div {
+    flex-direction: column-reverse;
+    align-self: center;
+  }
+}
+@media (max-width:1010px){
+  #drzacparagrafa2 div {
+    flex-direction: column;
+    align-self: center;
+    padding-top: 1rem;
+    width: 400px;
+    height: 300px;
+  }
+}
+@media (max-width:1010px){
+  #drzacparagrafa .fd {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:1010px){
+  #drzacparagrafa div img {
+    align-self: center;
+  }
+}
+/*--------------------------------O nama -----------------------------------*/
+.paragraflp {
+  padding: 4rem 0rem;
+  color: rgb(0, 0, 0);
+}
+#bglp {
+  background-image: url(../slicice/fv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slikakakka {
+  padding-bottom: 10rem;
+}
+
+#paragrafpad {
+  padding-top: 5rem;
+}
+.papa {
+  margin: 2rem 0rem;
+}
+#bglp h2 {
+  font-size: 38px;
+  padding-top: 5rem;
+} 
+/*-------------------------------Login -----------------------------------*/
+#login {
+  height: 100vh;
+}
+
+/* ------------------------- Promo -----------------------------------*/
+
+
+/* ------------------------- Promo -----------------------------------*/
+
+#kopriva {
+  height: 100vh;
+  width: 100%;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  background-image: url(../slicice/914.jpg);
+}
+#prekopriva {
+  height: 100vh;
+  width: 100%;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  background-image: url(../slicice/914.jpg);
+
+}
+#prekopriva h2 {
+  padding: 2rem;
+  margin: 0;
+  padding-top: 4rem;
+  padding-left: 1rem;
+}
+.p2p {
+  margin: 0;
+  padding: 0;
+  padding-left: 1rem;
+
+}
+/* ------------------------- galerija korpiva -----------------------------------*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ------------------------- galerija korpiva -----------------------------------*/
